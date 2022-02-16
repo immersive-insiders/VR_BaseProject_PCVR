@@ -31,8 +31,8 @@ public class XRPushButton : XRBaseInteractable
 
     public void StartPush(HoverEnterEventArgs arg0)
     {
-        pushInteractor = arg0.interactor;
-        previousPushDepth = GetLocalYPosition(arg0.interactor.transform.position);
+        pushInteractor = arg0.interactorObject as XRBaseInteractor;
+        previousPushDepth = GetLocalYPosition(arg0.interactorObject.transform.position);
     }
 
     private float GetLocalYPosition(Vector3 interactorPos)

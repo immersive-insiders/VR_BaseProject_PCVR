@@ -589,7 +589,7 @@ public class ActionBasedControllerManager : MonoBehaviour
         // Transition from Select state to Interact state when the interactor has a selectTarget
         FindBaseControllerComponents();
 
-        if (m_BaseInteractor.selectTarget != null)
+        if (!m_BaseInteractor.hasSelection)
             TransitionState(m_SelectState, m_InteractState);
     }
 
@@ -613,7 +613,7 @@ public class ActionBasedControllerManager : MonoBehaviour
     void OnUpdateInteractState()
     {
         // Transition from Interact state to Select state when the base interactor no longer has a select target
-        if (m_BaseInteractor.selectTarget == null)
+        if (!m_BaseInteractor.hasSelection)
             TransitionState(m_InteractState, m_SelectState);
     }
 
