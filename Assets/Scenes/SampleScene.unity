@@ -692,6 +692,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1670256628, guid: ecdbf3dc6204e7a46943712ecfb94c12, type: 3}
+      propertyPath: m_ModelPrefab
+      value: 
+      objectReference: {fileID: 3847394163889245884, guid: d3de6b6019d7e324681cb8a512eb2461, type: 3}
     - target: {fileID: 1717954561962503725, guid: ecdbf3dc6204e7a46943712ecfb94c12, type: 3}
       propertyPath: m_Name
       value: XRRig
@@ -740,6 +744,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3338212552185374808, guid: ecdbf3dc6204e7a46943712ecfb94c12, type: 3}
+      propertyPath: m_ModelPrefab
+      value: 
+      objectReference: {fileID: 6034036657953772362, guid: 45ed3e8e4ee863c46a567037912dd2be, type: 3}
     - target: {fileID: 6232745470614056087, guid: ecdbf3dc6204e7a46943712ecfb94c12, type: 3}
       propertyPath: m_Enabled
       value: 1
