@@ -1,4 +1,4 @@
-# VR_BaseProject_PCVR
+# VR_BaseProject_PCVR_V0
 
 A baseline repository for PC-VR (HTC Vive, Valve Index, etc.) development.
 
