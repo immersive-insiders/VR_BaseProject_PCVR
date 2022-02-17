@@ -10,9 +10,12 @@ Repository Details:
 
 
 Project details:
-- The project uses URP as render pipeline.
-- The project has a custom XR-Rig prefab, VR Push Bbutton, custom Teleporation Reticle and VR hands with animations.
-- It uses the default inoput actions i.e left hand controller can be used for continous locomotion and right hand controller for teleportation.
+- The project uses URP as a render pipeline.
+- The project has a custom XR-Rig prefab, VR Push Button, custom Teleportation Reticle and VR hands with animations.
+- It uses the default input actions i.e the left hand controller can be used for continuous locomotion and the right hand controller for teleportation.
 
 
 Note: Make sure to check out the other branches for the latest version.
+
+
+
